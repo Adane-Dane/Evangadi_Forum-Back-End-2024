@@ -99,7 +99,7 @@ async function singleQuestion(req, res) {
 
 async function SearchByTitle(req, res) {
   const title = req.params.title; // Access the path parameter
-  console.log(`Searching for title: ${title}`);
+  c;
 
   try {
     const [questions] = await dbConnection.query(
